@@ -11,11 +11,11 @@
 * Extension only going to work on particluar site set by developer(eg. elimus.com)
 * If we click on the extension on desired site it gets activate and close all the tabs except desired one
   and make that site into full screen.
-* You cant able to open any other tab in the browser
+* It also ask for the camera and microphone permission.
+* You can't able to open any other tab in the browser
 
 ### Future Functionality
 
-* Capture video and audio of the candidate
 * Restrict user to close the browser
 * Store ip and requirement checks into storage
 
