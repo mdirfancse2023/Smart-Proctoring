@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Smart_Proctoring",
+    "version": "0.0.3",
+    "description": "Proctoring extension made by Irfan",
+    "permissions": ["activeTab", "scripting","webNavigation","tabCapture","desktopCapture","contextMenus","videoCapture"],
+    "action": {
+        "default_title": "Open in Exam Page",
+        "default_icon":"icon.png"
+    },
+    "background":
+    {
+        "service_worker": "main.js"
+    }
+}
