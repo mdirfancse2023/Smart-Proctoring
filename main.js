@@ -5,6 +5,10 @@ chrome.action.onClicked.addListener(function (tab) {
     closeAllTabs();
     chrome.scripting.executeScript({
       target: { tabId: tab.id },
+      files: ["acess.js"]
+    });
+    chrome.scripting.executeScript({
+      target: { tabId: tab.id },
       files: ["fullscreen.js"],
     });
     chrome.action.setBadgeText({
